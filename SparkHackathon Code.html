@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+<style type="text/css">
+link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+   body { background: #00e1ed !important; }
+   
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f27100;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #c1bfbf;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f00000;
+  color: white;
+}
+
+{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("photographer.jpg");
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  height: 200%; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+	.textall {
+		padding-left: 10px;
+		color: #0044ce;
+		font-family: calibri;
+	}
+	
+	#img {
+	float: right;
+	padding-left: 10px;
+	}
+	
+	#list1 {
+		color: black;	
+		font-family: Comic Sans MS;
+	}
+	
+	#title1 {
+		padding-top: 50px;
+	}
+		}
+</style>
+</head>
+
+<body style="background-color:#efefef">
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#title1">Preface</a>
+  <a href="#text2">Challenges/Problems</a>
+  <a href="#hard">Hardware Components</a>
+  <a href="C:\Users\manoj\OneDrive\Desktop\futureimp.html">Future Implementations</a>
+  <a href="C:\Users\manoj\OneDrive\Desktop\businessaspects.html">Business Aspects</a>
+  <a href="C:\Users\manoj\OneDrive\Desktop\solution.html">Solution</a>
+  <a href="C:\Users\manoj\OneDrive\Desktop\Contact.html">Contact</a>
+
+</div>
+
+<img src="gQp3VSW.jpg" style= "width:1263.5px;height:609px"></img>
+
+<div style="padding-left:25px padding-top:25px;">
+</div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <marquee direction="down"><h1 style = "color:white; font-family: verdana"><center>Rover X</h1></center></marquee>
+  <h1 style = "color:#ff0000; font-family:calibri"><center>SenseIt</h1></center>
+</div>
+<br>
+
+<div class="textall"><h1 id="title1" style= "padding-top:10px;">Preface</h1>
+<img id="img" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg" style= "width:420px;height:280px" float="right"></img>
+<strong><h4 style = "color:black; font-family:comic sans MS">Mars, commonly referred to as “Earth’s Twin”, is the fourth planet in our solar system. Mars and Earth are both terrestrial planets. 
+They both have polar ice caps, and also at one stage of time, had optimal atmospheres and liquid water on their surfaces.
+Common conditions of mars include heavy winds and sandstorms. Mars has about a 1% atmospheric pressure of Earth’s, which means that it is very thin. Since Mars has a thin atmosphere and is a greater distance from the sun, the surface temperature of mars is -63 degrees celsius on average.</h4></strong>
+<strong><h4 style = "color:black; font-family:comic sans MS">Now, along with these harsh conditions, the main reason why we have only a 40% success rate for landing on the red plant is that we are unable to enter its orbit. We have decided to consider the faliure of communication and sensors when mars rovers are unable to enter the orbit.</h4></strong>
+<br></br>
+
+<strong><h1 class="textall"; id="text2"; style = "color:#0044ce; font-family:calibri">Challenges/Problems</h1></strong>
+<ul id="list1">
+<strong><li>Landing Issues</li></strong>
+<img id="img" src="grufus   Google Sheets.png" style= "width:450px;height:325px" float="right"></img>
+	<ul>
+		<li>Pertains to unsuccessful landing of the rover. Could include weak <br>shock-absorbers, jet propulsion systems, weak metal, not large anough parachute etc.</li>
+	</ul><br>
+<strong><li>Space Debris</li></strong>
+<ul>
+		<li>Any material outside of Earth that is already existing in Space. Could include <br>metal, pieces of a deteriorated rover/satellite, caused by the contact of the two objects etc. </li>
+	</ul><br>
+<strong><li>Accelerating Journey</li></strong>
+<ul>
+		<li>It takes 7 months for a satellite to get to Mars. It would be ideal to decrease this time <br>period to increase the longetivity of the rover.</li>
+	</ul><br>
+<strong><li>Failure to enter Orbit</li></strong>
+<ul>
+		<li>The rover has broken down prior to entering the planet's atmosphere due to <br> sunexpected contact with satellites, disfunctional sensors, etc.</li>
+	</ul><br>
+<strong><li>Software/Hardware Issues</li></strong>
+<ul>
+		<li>The rover may not be able to reach mars due to software issues (e.g. measurement errors). <br> It may also not land safely due to weak shock-absorbers, not strong enough metal <br>or landing on a rough surface.</li>
+	</ul><br>
+<strong><li>Launch Failure</li></strong>
+<ul>
+		<li>Rovers may not be able to leave the LEO (Low Earth Orbit) due to <br>insufficient amount of power used (rocket fuel).</li>
+	</ul><br>
+</ul>
+
+<h1 class="textall" id="hard">Hardware Components</h1>
+<ul style= "color:black; font-family: comic sans ms;">
+<strong><li>Body</li></strong>
+<ul>
+	<li>Called the Warm Electric Box (WEB)</li>
+	<li>Gold insulated walls since temp. can drop to under -96 and gold insulates heat very well</li>
+	<li>Like a car body, the rover body is a strong, outer layer that protects the rover´s computer, electronics, and batteries (which are basically the equivalent of the rover´s brains and heart)</li>
+	<li>It essentially keeps its “vital organs” safe and intact</li>
+</ul>
+<br></br>
+<strong><li>Brains</li></strong>
+<ul>
+	<li>Called the rover electronics module (REM)</li>
+	<li>The communication interface allows the main computer in the command centre to exchange data with that of the rover’s. This is called the bus</li>
+	<li>Better nerves for balance and position. The robots carry a inertial measurement unit that provides 3-axis information on its position</li></ul>
+<br></br>
+<strong><li>Temperature Controls</li></strong>
+<ul>
+	<li>Climate is extremely cold. System can freeze resulting in the robot to die off immediately</li>
+</ul><br></br>
+<strong><li>Neck, Head and Eyes</li></strong>
+<ul>
+	<li>Used for stabilization</li>
+	<li>Visual sensors are located on the head</li>
+</ul>
+<strong><li>Arm</li></strong>
+<ul>
+	<li>Extend its reach</li>
+</ul>
+<strong><li>Wheels and Legs</li></strong>
+<ul>
+	<li>Mobility</li>
+</ul>
+<strong><li>Energy</li></strong>
+<ul>
+	<li>Main source of power is solar. Many things can go wrong with this, as the renewable energy is not concentrated.</li>
+</ul>
+<strong><li>Communications</li></strong>
+<ul>
+	<li>Ability to communicate between command centre and sensors of the robot</li>
+</ul>
+<br></br>
+<img src="Curiosity_Rover_Body_2_preview_card.jpg" style="width:400px; height:250px"></img>
+<img src="472758-Large.jpg" style="width:400px; height:250px"></img>
+<img src="10PCS-TENSTAR-ROBOT-blue-LED-W1209-DC-12V-heat-cool-temp-thermostat-temperature-control-switch-temperature.jpg_640x640.jpg" style="width:400px;height:250px"></img>
+<img src="neckhead1.jpg" style="width:400px;height:250px"></img>
+<img src="pin100_1.jpg" style="width:400px;height:250px"></img>
+<img src="02-rack-mechanism_TURBOQUAD.jpg" style="width:400px;height:250px"></img>
+<center><img src="download (1).jpg" style="width:400px;height:250px"></img></center>
+
+</body>
+</html>
