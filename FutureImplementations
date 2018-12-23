@@ -104,7 +104,7 @@ body {
 
 </head>
 
-<body background="2dxaFs9.jpg">
+<body background="https://i.imgur.com/2dxaFs9.jpg">
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#title1">Preface</a>
@@ -141,12 +141,13 @@ body {
 <br>
 <br>
 <br><strong>
-<p style="font-family:courier new;color:white">Our sensors will allow for rovers to examine the conditions of Mars such as<p>
+<p style="font-family:courier new;color:white">Our sensors will allow for rovers to examine the conditions of Mars such as</p>
 <ul style="font-family:courier new;color:white">
 <li>climate</li>
 <li>geology</li>
 <li>atmospheric pressure</li>
 <li>planetary structure</li>
+</ul>
 <p style="color:white">After making our invention more safe and sustainable, we can implement our knowledge 
 to help colonize Mars by sending space shuttles and conducting human exploration. Overtime, this will allow us to acheive a vast 
 understanding of Mars and may ultimately lead to colonization and/or industrialization.</p>
